@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EMR Viewer - Patient Conditions</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .header {
+            background: white;
+            padding: 20px 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .header h1 {
+            color: #667eea;
+            font-size: 24px;
+        }
+
+        .header .patient-info {
+            text-align: right;
+            color: #666;
+        }
+
+        .patient-info strong {
+            color: #333;
+        }
+
+        .main-content {
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+
+        .tabs {
+            display: flex;
+            background: #f8f9fa;
+            border-bottom: 2px solid #e9ecef;
+        }
+
+        .tab {
+            padding: 15px 30px;
+            cursor: pointer;
+            border: none;
+            background: none;
+            font-size: 16px;
+            color: #666;
+            transition: all 0.3s;
+        }
+
+        .tab.active {
+            background: white;
+            color: #667eea;
+            border-bottom: 3px solid #667eea;
+        }
+
+        .tab:hover {
+            background: #e9ecef;
+        }
+
+        .content {
+            padding: 30px;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 40px;
+            color: #666;
+        }
+
+        .condition-card {
+            background: #f8f9fa;
+            border-left: 4px solid #667eea;
+            padding: 20px;
+            margin-bottom: 15px;
+            border-radius: 8px;
+            transition: all 0.3s;
+        }
+
+        .condition-card:hover {
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            transform: translateY(-2px);
+        }
+
+        .condition-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: start;
+            margin-bottom: 15px;
+        }
+
+        .condition-title {
+            font-size: 18px;
+            font-weight: 600;
+            color: #333;
+            margin-bottom: 5px;
+        }
+
+        .condition-status {
+            display: inline-block;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: 600;
+        }
+
+        .status-active {
+            background: #d4edda;
+            color: #155724;
+        }
+
+        .status-confirmed {
+            background: #cce5ff;
+            color: #004085;
+        }
+
+        .condition-details {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+            margin-top: 15px;
+        }
+
+        .detail-item {
+            background: white;
+            padding: 12px;
+            border-radius: 6px;
+        }
+
+        .detail-label {
+            font-size: 12px;
+            color: #666;
+            text-transform: uppercase;
+            margin-bottom: 5px;
+        }
+
+        .detail-value {
+            font-size: 14px;
+            color: #333;
+            font-weight: 500;
+        }
+
+        .code-badge {
+            display: inline-block;
+            background: #667eea;
+            color: white;
+            padding: 4px 10px;
+            border-radius: 4px;
+            font-size: 13px;
+            margin-right: 8px;
+            margin-bottom: 5px;
+        }
+
+        .confidence-bar {
+            height: 6px;
+            background: #e9ecef;
+            border-radius: 3px;
+            overflow: hidden;
+            margin-top: 5px;
+        }
+
+        .confidence-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #667eea, #764ba2);
+            transition: width 0.5s;
+        }
+
+        .no-data {
+            text-align: center;
+            padding: 60px 20px;
+            color: #999;
+        }
+
+        .no-data i {
+            font-size: 64px;
+            margin-bottom: 20px;
+            opacity: 0.3;
+        }
+
+        .refresh-btn {
+            background: #667eea;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            transition: all 0.3s;
+        }
+
+        .refresh-btn:hover {
+            background: #5568d3;
+            transform: translateY(-2px);
+        }
+
+        .timestamp {
+            font-size: 12px;
+            color: #999;
+            margin-top: 10px;
+        }
+
+        .definition-box {
+            background: #fff3cd;
+            border-left: 3px solid #ffc107;
+            padding: 12px;
+            margin-top: 10px;
+            border-radius: 4px;
+            font-size: 13px;
+            color: #856404;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div>
+                <h1><i class="fas fa-hospital"></i> EMR Viewer</h1>
+                <p style="color: #999; font-size: 14px; margin-top: 5px;">Traditional Medicine Integration System</p>
+            </div>
+            <div class="patient-info">
+                <div><strong>Patient ID:</strong> b4f7d426-7471-4e9d-a204-64441b18a147</div>
+                <div style="margin-top: 5px;"><strong>FHIR Server:</strong> HAPI FHIR R4</div>
+            </div>
+        </div>
+
+        <div class="main-content">
+            <div class="tabs">
+                <button class="tab active" onclick="showTab('conditions')">
+                    <i class="fas fa-notes-medical"></i> Conditions
+                </button>
+                <button class="tab" onclick="showTab('timeline')">
+                    <i class="fas fa-clock"></i> Timeline
+                </button>
+                <button class="tab" onclick="showTab('raw')">
+                    <i class="fas fa-code"></i> Raw FHIR
+                </button>
+            </div>
+
+            <div class="content">
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
+                    <h2 style="color: #333; font-size: 20px;">Patient Conditions</h2>
+                    <button class="refresh-btn" onclick="loadConditions()">
+                        <i class="fas fa-sync-alt"></i> Refresh
+                    </button>
+                </div>
+
+                <div id="conditions-list">
+                    <div class="loading">
+                        <i class="fas fa-spinner fa-spin" style="font-size: 32px; color: #667eea;"></i>
+                        <p style="margin-top: 15px;">Loading conditions...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let allConditions = [];
+
+        async function loadConditions() {
+            const container = document.getElementById('conditions-list');
+            container.innerHTML = `
+                <div class="loading">
+                    <i class="fas fa-spinner fa-spin" style="font-size: 32px; color: #667eea;"></i>
+                    <p style="margin-top: 15px;">Loading conditions...</p>
+                </div>
+            `;
+
+            try {
+                const response = await fetch('http://localhost:8090/fhir/Condition');
+                const data = await response.json();
+                
+                allConditions = data.entry || [];
+                
+                if (allConditions.length === 0) {
+                    container.innerHTML = `
+                        <div class="no-data">
+                            <i class="fas fa-inbox"></i>
+                            <h3>No Conditions Found</h3>
+                            <p>No conditions have been recorded yet.</p>
+                        </div>
+                    `;
+                    return;
+                }
+
+                displayConditions(allConditions);
+            } catch (error) {
+                container.innerHTML = `
+                    <div class="no-data">
+                        <i class="fas fa-exclamation-triangle"></i>
+                        <h3>Error Loading Conditions</h3>
+                        <p>${error.message}</p>
+                        <button class="refresh-btn" onclick="loadConditions()" style="margin: 20px auto;">
+                            <i class="fas fa-sync-alt"></i> Try Again
+                        </button>
+                    </div>
+                `;
+            }
+        }
+
+        function displayConditions(conditions) {
+            const container = document.getElementById('conditions-list');
+            
+            const html = conditions.map(entry => {
+                const condition = entry.resource;
+                const clinicalStatus = condition.clinicalStatus?.coding?.[0]?.code || 'unknown';
+                const verificationStatus = condition.verificationStatus?.coding?.[0]?.code || 'unknown';
+                
+                // Extract codes
+                const codes = condition.code?.coding || [];
+                // Traditional Medicine codes (siddha/ayurveda/unani)
+                const tmCodes = codes.filter(c => {
+                    const system = c.system || '';
+                    return system.includes('/siddha') || 
+                           system.includes('/ayurveda') || 
+                           system.includes('/unani');
+                });
+                // ICD-11 codes (separate Standard MMS and TM2)
+                const icd11StandardCodes = codes.filter(c => {
+                    const system = c.system || '';
+                    return system.includes('/mms');
+                });
+                const icd11TM2Codes = codes.filter(c => {
+                    const system = c.system || '';
+                    return system.includes('/tm2') && !system.includes('/siddha') && !system.includes('/ayurveda') && !system.includes('/unani');
+                });
+                const icd11Codes = [...icd11StandardCodes, ...icd11TM2Codes];
+                
+                // Get confidence scores
+                const confidences = codes.map(c => {
+                    const ext = c.extension?.find(e => e.url?.includes('confidence'));
+                    return ext ? ext.valueDecimal : null;
+                }).filter(c => c !== null);
+                
+                // Get definitions
+                const definitions = condition.note?.map(n => n.text) || [];
+                
+                return `
+                    <div class="condition-card">
+                        <div class="condition-header">
+                            <div>
+                                <div class="condition-title">
+                                    ${condition.code?.text || 'Condition'}
+                                </div>
+                                <div style="margin-top: 8px;">
+                                    <span class="condition-status status-active">${clinicalStatus}</span>
+                                    <span class="condition-status status-confirmed">${verificationStatus}</span>
+                                </div>
+                            </div>
+                            <div style="text-align: right;">
+                                <div style="font-size: 12px; color: #999;">Resource ID</div>
+                                <div style="font-size: 16px; font-weight: 600; color: #667eea;">${condition.id}</div>
+                            </div>
+                        </div>
+
+                        ${condition.code?.text ? `
+                            <div style="background: #e3f2fd; border-left: 4px solid #2196f3; padding: 15px; margin-bottom: 15px; border-radius: 4px;">
+                                <div style="font-weight: 600; color: #1976d2; margin-bottom: 8px;">
+                                    <i class="fas fa-stethoscope"></i> Clinical Presentation
+                                </div>
+                                <div style="color: #424242; line-height: 1.6;">
+                                    ${condition.code.text}
+                                </div>
+                            </div>
+                        ` : ''}
+
+                        <div class="condition-details">
+                            ${icd11Codes.length > 0 ? `
+                                <div class="detail-item">
+                                    <div class="detail-label"><i class="fas fa-code"></i> ICD-11 Codes</div>
+                                    <div class="detail-value">
+                                        ${icd11Codes.map(c => `
+                                            <div style="margin-bottom: 8px;">
+                                                <span class="code-badge">${c.code || 'N/A'}</span>
+                                                <div style="font-size: 12px; color: #666; margin-top: 4px;">${c.display || 'No description'}</div>
+                                            </div>
+                                        `).join('')}
+                                    </div>
+                                </div>
+                            ` : ''}
+
+                            ${tmCodes.length > 0 ? `
+                                <div class="detail-item">
+                                    <div class="detail-label"><i class="fas fa-leaf"></i> Traditional Medicine</div>
+                                    <div class="detail-value">
+                                        ${tmCodes.map(c => {
+                                            const systemName = c.system?.includes('/siddha') ? 'Siddha' : 
+                                                             c.system?.includes('/ayurveda') ? 'Ayurveda' : 
+                                                             c.system?.includes('/unani') ? 'Unani' : 'TM';
+                                            return `
+                                            <div style="margin-bottom: 8px;">
+                                                <span class="code-badge" style="background: #28a745;">${c.code || 'N/A'}</span>
+                                                <div style="font-size: 13px; color: #333; margin-top: 4px; font-weight: 500;">${c.display || 'Traditional Medicine Term'}</div>
+                                                <div style="font-size: 11px; color: #999; margin-top: 2px;">${systemName} System</div>
+                                            </div>
+                                        `}).join('')}
+                                    </div>
+                                </div>
+                            ` : ''}
+
+                            ${confidences.length > 0 ? `
+                                <div class="detail-item">
+                                    <div class="detail-label"><i class="fas fa-chart-line"></i> Mapping Confidence</div>
+                                    <div class="detail-value">
+                                        ${confidences.map(conf => `
+                                            <div style="margin-bottom: 10px;">
+                                                <div style="display: flex; justify-content: space-between; font-size: 13px;">
+                                                    <span>Confidence Score</span>
+                                                    <span style="font-weight: 600;">${(conf * 100).toFixed(1)}%</span>
+                                                </div>
+                                                <div class="confidence-bar">
+                                                    <div class="confidence-fill" style="width: ${conf * 100}%"></div>
+                                                </div>
+                                            </div>
+                                        `).join('')}
+                                    </div>
+                                </div>
+                            ` : ''}
+
+                            <div class="detail-item">
+                                <div class="detail-label"><i class="fas fa-calendar"></i> Recorded Date</div>
+                                <div class="detail-value">${new Date(condition.recordedDate).toLocaleString()}</div>
+                            </div>
+                        </div>
+
+                        ${definitions.length > 0 ? `
+                            <div class="definition-box">
+                                <strong><i class="fas fa-info-circle"></i> Clinical Definitions:</strong>
+                                ${definitions.map(def => `<div style="margin-top: 8px;">${def.substring(0, 200)}${def.length > 200 ? '...' : ''}</div>`).join('')}
+                            </div>
+                        ` : ''}
+
+                        <div class="timestamp">
+                            <i class="fas fa-clock"></i> Last Updated: ${new Date(condition.meta?.lastUpdated).toLocaleString()}
+                        </div>
+                    </div>
+                `;
+            }).join('');
+
+            container.innerHTML = html;
+        }
+
+        function showTab(tab) {
+            // Update tab buttons
+            document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+            event.target.closest('.tab').classList.add('active');
+
+            // For now, just show conditions
+            // You can implement timeline and raw views later
+            if (tab === 'conditions') {
+                displayConditions(allConditions);
+            } else if (tab === 'raw') {
+                const container = document.getElementById('conditions-list');
+                container.innerHTML = `
+                    <pre style="background: #f8f9fa; padding: 20px; border-radius: 8px; overflow-x: auto; font-size: 12px;">
+${JSON.stringify(allConditions, null, 2)}
+                    </pre>
+                `;
+            } else if (tab === 'timeline') {
+                const container = document.getElementById('conditions-list');
+                container.innerHTML = `
+                    <div class="no-data">
+                        <i class="fas fa-clock"></i>
+                        <h3>Timeline View</h3>
+                        <p>Timeline visualization coming soon...</p>
+                    </div>
+                `;
+            }
+        }
+
+        // Load conditions on page load
+        loadConditions();
+    </script>
+</body>
+</html>

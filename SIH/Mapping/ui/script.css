@@ -1,0 +1,203 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6fb;
+    padding: 30px;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    background: white;
+    padding: 30px 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.subtitle {
+    color: #666;
+    margin-top: -10px;
+}
+
+/* SYSTEM SELECTOR */
+.system-select {
+    width: 100%;
+    padding: 12px;
+    border-radius: 6px;
+    border: 2px solid #0066ff;
+    font-size: 16px;
+    background: white;
+    cursor: pointer;
+    font-weight: 600;
+    color: #333;
+}
+
+.system-select:focus {
+    outline: none;
+    border-color: #004fcc;
+    box-shadow: 0 0 0 3px rgba(0, 102, 255, 0.1);
+}
+
+.section {
+    margin-top: 40px;
+}
+
+.input,
+.textarea {
+    width: 100%;
+    padding: 12px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+.textarea {
+    height: 90px;
+}
+
+.btn {
+    margin-top: 10px;
+    background: #0066ff;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    transition: all 0.2s ease;
+}
+
+.btn:hover {
+    background: #004fcc;
+    transform: translateY(-1px);
+    box-shadow: 0 2px 8px rgba(0, 102, 255, 0.3);
+}
+
+.btn-secondary {
+    background: #28a745;
+    margin-left: 10px;
+}
+
+.btn-secondary:hover {
+    background: #218838;
+    box-shadow: 0 2px 8px rgba(40, 167, 69, 0.3);
+}
+
+/* AUTOCOMPLETE DROPDOWN */
+.autocomplete-wrapper {
+    position: relative;
+}
+
+.dropdown {
+    position: absolute;
+    top: 45px;
+    width: 100%;
+    background: white;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    max-height: 260px;
+    overflow-y: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    display: none;
+    z-index: 50;
+}
+
+.dropdown-item {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.dropdown-item:hover {
+    background: #eef3ff;
+}
+
+.item-title {
+    font-size: 15px;
+}
+
+.item-def {
+    font-size: 13px;
+    color: #666;
+}
+
+/* CARDS */
+.card {
+    background: #fff;
+    padding: 18px;
+    border-radius: 6px;
+    margin-top: 20px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* TRADITIONAL MEDICINE CANDIDATES */
+.siddha-candidate {
+    padding: 14px;
+    margin: 12px 0;
+    background: #f8f9fa;
+    border: 2px solid #e0e0e0;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    line-height: 1.5;
+}
+
+.siddha-candidate:hover {
+    background: #e3f2fd;
+    border-color: #2196f3;
+    transform: translateX(5px);
+    box-shadow: 0 2px 8px rgba(33, 150, 243, 0.2);
+}
+
+/* DIAGNOSIS RESULTS */
+.diagnosis-result {
+    line-height: 1.6;
+}
+
+/* ICD RESULTS */
+.icd-list {
+    margin-top: 10px;
+}
+
+.icd-item {
+    padding: 12px;
+    margin: 10px 0;
+    background: #fafafa;
+    border-left: 4px solid #4caf50;
+    border-radius: 4px;
+    line-height: 1.5;
+    transition: all 0.2s ease;
+    position: relative;
+}
+
+.icd-item:hover {
+    background: #f0f0f0;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    transform: translateX(3px);
+}
+
+.icd-selectable {
+    cursor: pointer;
+    border-left: 4px solid #999;
+}
+
+.icd-selectable:hover {
+    background: #e8f5e9;
+    border-left-color: #4caf50;
+}
+
+.icd-selectable.selected {
+    background: #c8e6c9;
+    border-left: 4px solid #2e7d32;
+    box-shadow: 0 2px 8px rgba(46, 125, 50, 0.3);
+}
+
+.selection-indicator {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: #2e7d32;
+    color: white;
+    padding: 4px 10px;
+    border-radius: 12px;
+    font-size: 0.85em;
+    font-weight: 600;
+}

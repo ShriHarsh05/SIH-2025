@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traditional Medicine → ICD-11 Mapping System</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Login Modal -->
+    <div id="loginModal" class="modal">
+        <div class="modal-content login-card">
+            <div class="login-header">
+                <i class="fas fa-heartbeat"></i>
+                <h2>Welcome Back</h2>
+                <p>Sign in to access the Traditional Medicine Mapping System</p>
+            </div>
+
+            <div class="login-body">
+                <!-- OAuth Login -->
+                <button class="btn-oauth btn-google" onclick="loginWithGoogle()">
+                    <i class="fab fa-google"></i>
+                    Continue with Google
+                </button>
+
+                <div class="divider">
+                    <span>OR</span>
+                </div>
+
+                <!-- Traditional Login -->
+                <form id="loginForm" onsubmit="loginWithCredentials(event)">
+                    <div class="form-group">
+                        <label><i class="fas fa-envelope"></i> Email</label>
+                        <input type="email" id="loginEmail" placeholder="demo@example.com" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label><i class="fas fa-lock"></i> Password</label>
+                        <input type="password" id="loginPassword" placeholder="••••••••" required>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary btn-block">
+                        <i class="fas fa-sign-in-alt"></i> Sign In
+                    </button>
+                </form>
+
+                <div class="login-footer">
+                    <p>Demo credentials: <strong>demo@example.com</strong> / <strong>demo123</strong></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main App -->
+    <div id="mainApp" style="display: none;">
+        <!-- Navigation Bar -->
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-brand">
+                    <i class="fas fa-heartbeat"></i>
+                    <span>TM → ICD Mapper</span>
+                </div>
+                <div class="nav-menu">
+                    <div class="user-info">
+                        <i class="fas fa-user-circle"></i>
+                        <span id="userName">User</span>
+                    </div>
+                    <button class="btn btn-outline" onclick="logout()">
+                        <i class="fas fa-sign-out-alt"></i> Logout
+                    </button>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Main Container -->
+        <div class="container">
+            <!-- Hero Section -->
+            <div class="hero-section">
+                <h1 class="hero-title">
+                    <i class="fas fa-stethoscope"></i>
+                    Traditional Medicine → ICD-11 Mapping
+                </h1>
+                <p class="hero-subtitle">
+                    AI-powered hybrid retrieval system for Siddha, Ayurveda, and Unani medical coding
+                </p>
+            </div>
+
+            <!-- System Selector -->
+            <div class="card card-selector">
+                <div class="card-header">
+                    <i class="fas fa-hospital"></i>
+                    <h2>Select Traditional Medicine System</h2>
+                </div>
+                <div class="card-body">
+                    <div class="system-grid">
+                        <div class="system-option" onclick="selectSystem('siddha')">
+                            <input type="radio" name="system" value="siddha" id="siddha" checked>
+                            <label for="siddha">
+                                <i class="fas fa-leaf"></i>
+                                <span>Siddha</span>
+                            </label>
+                        </div>
+                        <div class="system-option" onclick="selectSystem('ayurveda')">
+                            <input type="radio" name="system" value="ayurveda" id="ayurveda">
+                            <label for="ayurveda">
+                                <i class="fas fa-spa"></i>
+                                <span>Ayurveda</span>
+                            </label>
+                        </div>
+                        <div class="system-option" onclick="selectSystem('unani')">
+                            <input type="radio" name="system" value="unani" id="unani">
+                            <label for="unani">
+                                <i class="fas fa-mortar-pestle"></i>
+                                <span>Unani</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Full Mapping Section -->
+            <div class="card">
+                <div class="card-header">
+                    <i class="fas fa-code-branch"></i>
+                    <h2><span id="systemLabel">Siddha</span> → ICD-11 Mapping</h2>
+                </div>
+                <div class="card-body">
+                    <textarea id="mappingInput" class="textarea"
+                        placeholder="Enter code, term, or symptoms for comprehensive ICD-11 mapping..."></textarea>
+                    <button class="btn btn-primary" onclick="runMapping()">
+                        <i class="fas fa-map-marked-alt"></i> Map to ICD-11
+                    </button>
+                    <div id="mappingResults"></div>
+                    <div id="icdResults"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>© 2025 Traditional Medicine Mapping System | Powered by AI & Hybrid Retrieval</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
