@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Traditional Medicine → ICD-11 Mapping</title>
+    <link rel="stylesheet" href="script.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Traditional Medicine → ICD Mapping System</h1>
+        <!-- <p class="subtitle">Hybrid Retrieval + LLM Reasoning</p> -->
+
+        <!-- SYSTEM SELECTOR -->
+        <div class="section">
+            <h2>🏥 Select Traditional Medicine System</h2>
+            <select id="systemSelector" class="system-select" onchange="onSystemChange()">
+                <option value="siddha">Siddha</option>
+                <option value="ayurveda">Ayurveda</option>
+                <option value="unani">Unani</option>
+                <option value="ayurveda-sat">Ayurveda-SAT</option>
+            </select>
+        </div>
+
+        <!-- SECTION 1: AUTOCOMPLETE -->
+        <div class="section">
+            <h2>🔍 <span id="systemLabel">Siddha</span> Autocomplete Search</h2>
+
+            <div class="autocomplete-wrapper">
+                <input type="text" id="autocompleteInput" class="input"
+                    placeholder="Start typing code, term, or keyword..." autocomplete="off">
+
+                <div id="autocompleteDropdown" class="dropdown"></div>
+            </div>
+
+            <div id="autocompleteResults"></div>
+        </div>
+
+        <!-- SECTION 2: DIAGNOSIS -->
+        <div class="section">
+            <h2>🧠 <span id="systemLabel2">Siddha</span> Diagnosis (Symptoms → Code)</h2>
+
+            <textarea id="diagnosisInput" class="textarea"
+                placeholder="Enter symptoms (e.g., knee swelling and pain)..."></textarea>
+
+            <button class="btn" onclick="runDiagnosis()">Diagnose</button>
+            <div id="diagnosisResults"></div>
+        </div>
+
+        <!-- SECTION 3: FULL MAPPING -->
+        <div class="section">
+            <h2>🩺 Full Mapping (<span id="systemLabel3">Siddha</span> → ICD)</h2>
+
+            <div class="autocomplete-wrapper">
+                <textarea id="mappingInput" class="textarea" placeholder="Enter code, term, or symptoms"></textarea>
+                <div id="mappingDropdown" class="dropdown"></div>
+            </div>
+
+            <button class="btn" onclick="runMapping()">Map to ICD</button>
+            <div id="mappingResults"></div>
+            <div id="icdResults"></div>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

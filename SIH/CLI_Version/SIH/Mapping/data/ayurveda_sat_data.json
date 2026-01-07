@@ -1,0 +1,1058 @@
+[
+  {
+    "term": "vyAdhi viniScaya/ nidAna",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C",
+    "definition": ""
+  },
+  {
+    "term": "vyAdhiH",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.1",
+    "definition": "disease/ syndrome. the term signifies disease or ailment which brings about grief or pain to the individual; the word meaning implies an abnormal state of distress or pain, wherein the mind resolves to counteract the disturbances in the body to bring a healthy state. vyadhi brings about distress to physical and mental wellbeing of individual"
+  },
+  {
+    "term": "vyAdhiparyAyaH",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.2",
+    "definition": "synonym of disease"
+  },
+  {
+    "term": "AmayaH",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.3",
+    "definition": "disease/ syndrome. the structure of the word signifies the diseases originating in the body secondary to disturbances in the process of digestion, due to accumulation of ?ma in body channels"
+  },
+  {
+    "term": "gadaH",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.4",
+    "definition": "disease/ syndrome. the term implies diseases that arise out of multiple factors simultaneously."
+  },
+  {
+    "term": "Ata~gkaH",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.5",
+    "definition": "disease/ syndrome. the term signifies that disease makes life miserable by causing fear, terror or distress in the person."
+  },
+  {
+    "term": "yakShmA",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.6",
+    "definition": "disease/ syndrome. the term implies diseases characterised by a constellation of symptoms which occur together."
+  },
+  {
+    "term": "jvara:",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.7",
+    "definition": "disease/ syndrome. jwara is the most important among diseases and here the term implies the ability of a disease to cause anguish to mind and body."
+  },
+  {
+    "term": "vikAraH",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.8",
+    "definition": "disorder/ disease/ syndrome. vikara is the condition which causes deviation from the normal physiological state of health of an individual."
+  },
+  {
+    "term": "rogaH",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.9",
+    "definition": "disease/ syndrome. literally, the opposite of ease, when something is wrong with a bodily function. an interruption, cessation, or disorder of functions at the level of psyche, mind or body."
+  },
+  {
+    "term": "pApmA",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.10",
+    "definition": "disease/ syndrome/ skin disease. the term literally signifies disease, originating from physical or mental si ns of the individual in present or past life. ."
+  },
+  {
+    "term": "vyAdhisa~gkaraH",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.11",
+    "definition": "co-morbidity. a disease that gives rise to another disease and still continues to exist. it  can also signify a condition when two or more diseases co-exist together and may produce as a result of similarity in etiology, or pathogenic mechanism."
+  },
+  {
+    "term": "vyAdhiBedaH",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.12",
+    "definition": "disease classification. the term signifies the categorization of diseases as per various criteria."
+  },
+  {
+    "term": "dvividha-mAnasika-rogaH",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.13",
+    "definition": "two types of psychological disease. the diseases which affects the psyche, can be classified as rajasika and tamasika"
+  },
+  {
+    "term": "rAjasa-rogaH",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.14",
+    "definition": "diseases caused by rajas. disorders of psyche caused by increase in rajo guna in the individual such as excessive anger, jealousy etc"
+  },
+  {
+    "term": "tAmasa-rogaH",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.15",
+    "definition": "diseases caused by tamas. �disorders of psyche caused by increase in tamo guna in the individual such as grief, slothfulness, excessive sleepiness etc"
+  },
+  {
+    "term": "trividha-SArIrika-rogaH",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.16",
+    "definition": "three types of somatic disease. classification of somatic diseases on the basis of vitiation of sareerika doshas"
+  },
+  {
+    "term": "Agneya-rogaH",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.17",
+    "definition": "diseases caused by pitta. �this term implies diseases caused by vitiation of pitta dosha such as amlapitta, raktapitta, kamala etc."
+  },
+  {
+    "term": "saumya-rogaH",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.18",
+    "definition": "diseases caused by kapha. �this term implies diseases caused by vitiated kapha dosha in the body such as aruchi."
+  },
+  {
+    "term": "vAyavya-rogaH",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.19",
+    "definition": "diseases caused by v?ta. �this term implies diseases produced by vitiated vata dosha in the body such as sandhivata, gridhrasi, pakshaghata etc"
+  },
+  {
+    "term": "trividharogaH",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.20",
+    "definition": "three fold disease classification. �three fold classification of diseases by acharya susruta on the basis of etiology."
+  },
+  {
+    "term": "AdhyAtmika-rogaH",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.21",
+    "definition": "psychosomatic diseases. �this term signifies diseases produced as a result of affliction of psyche and body, all psychosomatic diseases are included in this categorisation."
+  },
+  {
+    "term": "AdibalapravRutta-rogaH",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.22",
+    "definition": "hereditary anomalies. �diseases caused due to morbidity of sperm and ovum and all hereditary diseases are classified under this."
+  },
+  {
+    "term": "mAtRujarogaH",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.23",
+    "definition": "hereditary anomalies by maternal origin. hereditary anomalies inherited through maternal genetic defects due to morbidity in ovum"
+  },
+  {
+    "term": "pitRujarogaH",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.24",
+    "definition": "hereditary anomalies by paternal origin. �hereditary anomalies inherited through paternal genetic defects due to morbidity in sperm"
+  },
+  {
+    "term": "janmabalapravRutta-rogaH",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.25",
+    "definition": "congenital anomalies. �diseases that occur at the time of birth due to improper dietetics and life style practices followed by mother during conception and various stages of foetal development."
+  },
+  {
+    "term": "rasakRutarogaH",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.26",
+    "definition": "diseases due to dietary indiscretions. �congenital disorders that occur in infant due to dietary indiscretions of the mother practiced during conception and pregnancy."
+  },
+  {
+    "term": "dauhRudApacArakRuta-rogaH",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.27",
+    "definition": "diseases due to non-fulfilment of special cravings of the mother. �the congenital or other diseases that occur in the infant due to non-fulfillment of mothers cravings during pregnancy."
+  },
+  {
+    "term": "doShabalapravRuttarogaH",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.28",
+    "definition": "diseases caused by vitiated do?ha. diseases that manifest in the body due to vitiation of body humors such as jwara, raktapitta etc."
+  },
+  {
+    "term": "AmASayasamuttha-rogaH",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.29",
+    "definition": "diseases of gastric origin. �diseases which have their origin in the gastro-duodenal tract such as amlapitta(hyperacidity), chardi(vomiting )."
+  },
+  {
+    "term": "pakvASayasamuttha-rogaH",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.30",
+    "definition": "diseases of intestinal  origin. �diseases  which have their origin in the large intestinal tract such as arsas(piles), udavartha(constipation) etc"
+  },
+  {
+    "term": "AdhiBautikarogaH",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.31",
+    "definition": "traumatic (exogenous) diseases. �diseases caused in the body due to exogenous or traumatic causes such as injury from accidents, fall or from animal bite or poisons."
+  },
+  {
+    "term": "saMGAtabalapravRutta-rogaH",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.32",
+    "definition": "traumatic  diseases. �diseases caused by trauma such as accidents, falls etc."
+  },
+  {
+    "term": "SastrakRutarogaH",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.33",
+    "definition": "diseases caused by sharp instruments. �diseases caused by weapons or instruments such as swords, surgical instruments, stones, wood etc."
+  },
+  {
+    "term": "vyAlakRutarogaH",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.34",
+    "definition": "diseases caused by wild animals. the diseases which are produced due to attack and bite of tame and wild animals and include attacks by animals and injuries caused by their nails, horns and bites, snake poison, bee sting etc."
+  },
+  {
+    "term": "AdhidaivikarogaH",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.35",
+    "definition": "natural diseases. �diseases that arise out of disturbances in nature such as natural calamities, seasonal or climatic variations or due to tempestuous divine interventions such as floods, epidemics, draught etc."
+  },
+  {
+    "term": "kAlabalapravRutta-rogaH",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.36",
+    "definition": "seasonal diseases. �diseases that are manifested in the body due to abnormal variations in the climate such as due to excessive rain, excessive heat, excessive cold and include conditions such as heatstroke, frost bite etc."
+  },
+  {
+    "term": "vyApannartukRutarogaH",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.37",
+    "definition": "diseases caused by abnormality of the season. �diseases that manifest in the body due to unexpected variation in the character of seasons such as excessive rain during rainy season, excessive snowfall during winter etc."
+  },
+  {
+    "term": "avyApannartukRuta-rogaH",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.38",
+    "definition": "diseases which are not caused by abnormality of the season. �the diseases that are caused due to vitiation of body humors that are consistent with that of a normal season and manifests mainly because of non-adaptation of suitable dietetics and regimen prescribed for that season."
+  },
+  {
+    "term": "daivabalapravRuttarogaH",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.39",
+    "definition": "diseases caused by supernatural agencies. �diseases that are believed to be caused by divine or supernatural causes without any other apparent cause and includes diseases caused by destruction by natural calamities such as floods, cyclones etc."
+  },
+  {
+    "term": "vidyudaSanikRuta-rogaH",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.40",
+    "definition": "diseases caused by lightning and thunder. diseases caused by natural disasters such as thunder, lightning, asteroids and fall of comets on earth surface"
+  },
+  {
+    "term": "piSAcAdikRuta-rogaH",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.41",
+    "definition": "diseases caused by evil spirits. �diseases caused by ominous evil forces such as spirits etc are included in this."
+  },
+  {
+    "term": "saMsargajarogaH",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.42",
+    "definition": "infectious diseases. �diseases that are caused and transmitted in individuals by close contact or by being in proximity with individuals affected with some diseases such as kushta( leprosy), netrabhisyanda( conjunctivitis) etc"
+  },
+  {
+    "term": "AkasmikarogaH",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.43",
+    "definition": "idiopathic diseases. �the diseases which manifest suddenly in the body without any apparent cause."
+  },
+  {
+    "term": "svaBAvabalapravRutta-rogaH",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.44",
+    "definition": "natural diseases (physiological diseases). a variety of diseases, brought about by natural progression of bodily processes such as hunger, thirst, sleep, old age etc."
+  },
+  {
+    "term": "kAlajarogaH",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.45",
+    "definition": "timely occurring natural diseases. �the diseases that manifest in the body naturally due to the effect of time and physiological progression such as ageing, wrinkling, greying of hair etc."
+  },
+  {
+    "term": "akAlajarogaH",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.46",
+    "definition": "untimely occurring natural diseases. �the conditions that manifest prior to their natural time of occurrence in the body due to improper dietetics, erratic lifestyles etc such as premature greying and wrinkling etc."
+  },
+  {
+    "term": "vyAdhi-sAdhyAsAdhyatvam",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.47",
+    "definition": "disease classification according to prognosis. �the classification of diseases based on their prognosis such as good prognosis(sadhya), incurable(asadhya), curable with difficulty( krichrasadhya) and palliative (yapya)"
+  },
+  {
+    "term": "sAdhyarogaH",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.48",
+    "definition": "curable diseases. diseases having good prognosis such as chardi (vomiting), mandagni ( depleted digestive fire)."
+  },
+  {
+    "term": "suKasAdhya-rogaH",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.49",
+    "definition": "easily curable diseases. easily curable diseases, having less causative factors, less amount of vitiation of do?a and manifested in comparatively less deteriorated body tissues."
+  },
+  {
+    "term": "kRucCrasAdhya-rogaH",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.50",
+    "definition": "disease curable with difficulty. �the diseases that are curable with difficulty owing to various factors such as multiplicity of etiological factors, depleted strength of individual, diseases involving multiple tissue; including diseases such as piles caused by involvement of two body humors."
+  },
+  {
+    "term": "asAdhyarogaH",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.51",
+    "definition": "incurable disease. �the diseases which are incurable owing to involvement of all body humors, multiple tissues and tracts and presenting with arishta lakshana(signs that are markers of impending death) and includes diseases such as urdhwaswasa(severe respiratory disease), hemorrhagic diathesis due to all humors etc"
+  },
+  {
+    "term": "yApyarogaH",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.52",
+    "definition": "incurable but manageable disease. �the diseases which by nature are not completely curable , but only palliable with suitable medicines and dietetics such as prameha(obstinate urinary disease), tamaka swasa(bronchial asthma ) etc."
+  },
+  {
+    "term": "pratyAKyeya-rogaH",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.53",
+    "definition": "absolutely incurable disease. �the diseases which could not be managed at all even with excellence of medicine, physicians, health etc."
+  },
+  {
+    "term": "sAmAnyajavikAraH",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.54",
+    "definition": "common diseases. diseases caused due more than one vitiated dosha"
+  },
+  {
+    "term": "rogaviniScayaH/ vyAdhiviniScayaH",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.55",
+    "definition": "definitive diagnosis. definite diagnosis of a disease"
+  },
+  {
+    "term": "rogaparIkShA",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.56",
+    "definition": "examination of diseases. examination / investigation of the disease; it is carried out with the help of pa�calakshananidana"
+  },
+  {
+    "term": "nidAnapa~jcakaH",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.57",
+    "definition": "five diagnostic principles. �the fivefold factors that help in understanding and diagnosis of a disease, including etiology(nidana), purvarupa(prodromal symptoms), rupa(signs and symptoms of the disease), samprapthi(pathogenesis) and upasaya(understanding of aggravating and relieving factors)"
+  },
+  {
+    "term": "vyAdhijanaka-nidAnam",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.58",
+    "definition": "aetiology. �the factors that directly or indirectly act as aetiology of a disease."
+  },
+  {
+    "term": "nidAnaparyAyaH",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.59",
+    "definition": "synonym of aetiology"
+  },
+  {
+    "term": "hetuH",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.60",
+    "definition": "causative factors. the term literally means causative factors of the disease. ayurveda gives immense importance to understanding the cause of the disease and mentions evading the cause as prime and important measure in preventing or curing a disease. they are classified into different categories."
+  },
+  {
+    "term": "nimittam",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.61",
+    "definition": "causative factors. �synonym of nidana which literally means sakuna(omen or prognostic)."
+  },
+  {
+    "term": "Ayatanam",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.62",
+    "definition": "causative factors. �synonym of nidana which means cause of disease.ayatana also means the site which provide shelter ."
+  },
+  {
+    "term": "kartAH",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.63",
+    "definition": "causative factors. synonym of nidana which literally means the perpetrator;�that which act as cause of disease"
+  },
+  {
+    "term": "kAraNam",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.64",
+    "definition": "causative factors. the word implies primal cause"
+  },
+  {
+    "term": "pratyayam",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.65",
+    "definition": "causative factors. synonym of nidana meaning cause; used in terms of faith also"
+  },
+  {
+    "term": "samutthAnam",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.66",
+    "definition": "causative factors. literal meaning of the word implies origin/progress of a disease which would point to its aetiology"
+  },
+  {
+    "term": "dvividhahetuH",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.67",
+    "definition": "two types of aetiological factors. the two fold type of aetiological factors that is based on the nature of etiology  as those which directly cause disease and those which act as additional cause in manifestation of disease"
+  },
+  {
+    "term": "utpAdakahetuH",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.68",
+    "definition": "originating causes of disease. etiological factors that act as direct cause for the initiation of a disease by favouring accumulation of respective doshas"
+  },
+  {
+    "term": "vya~jjakahetuH",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.69",
+    "definition": "agrevating causes of disease. etiological cause that sustains the aggravation and stimulates progression of a disease"
+  },
+  {
+    "term": "bAhyahetuH",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.70",
+    "definition": "extrinsic cause. external causes that include vitiation of dosha through alterations in food, behavioral aspects and time"
+  },
+  {
+    "term": "AByantarahetuH",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.71",
+    "definition": "intrinsic cause. internal factors like do?a, dushya that exist inside the body which act as the ultimate cause in disease manifestation, when deviated from normal stage of equilibrium"
+  },
+  {
+    "term": "SArIrikahetuH",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.72",
+    "definition": "somatic cause. causes leading to disturbances in the anatomy and physiology of the body"
+  },
+  {
+    "term": "mAnasikahetuH",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.73",
+    "definition": "psychological cause. causes leading to disturbances in the functions of mind"
+  },
+  {
+    "term": "trividhahetuH",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.74",
+    "definition": "three types of aetiological factors. classification of etiology into three types including asatmyendriyartha samyoga (improper use of sense organs), prajnaparadha(intellectual blasphemy) and parinama (transformation attributed to time)"
+  },
+  {
+    "term": "asAtmyendriyArtha- saMyogaH",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.75",
+    "definition": "improper use of sensory organs. misuse of the senses in wrongful manner, in excess or in less than normal way; included as one of the three prime causes of a disease"
+  },
+  {
+    "term": "praj~jAparAdhaH",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.76",
+    "definition": "intellectual blasphemy; knowingly opting the wrong things may be dietetic or behavioural. included as one of the three prime causes of a disease; the misuse of a person's intellect in identifying the wholesome / beneficial thing, any act done bereft of intelligence, perseverance and mindfulness. such an act aggravates all the three do?a thus should be avoided by a wise person"
+  },
+  {
+    "term": "pariNAmaH",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.77",
+    "definition": "seasonal variation as a cause of disease. the negative impact of the season; included as one of the three prime causes of a disease"
+  },
+  {
+    "term": "doShahetuH",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.78",
+    "definition": "vitiated do?ha as a cause of disease. the seasonal variations causing natural accumulation and aggravation of the do?a"
+  },
+  {
+    "term": "prAkRutadoShaH",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.79",
+    "definition": "normal physiological state of do?ha. the normal physiological state of dosa which brings about state of equilibrium and health in body"
+  },
+  {
+    "term": "vaikRutadoShaH",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.80",
+    "definition": "deviation of do?ha from its normal state. the deviation of dosa from normal physiological state of equilibrium with derangement of functional, qualitative or quantitative aspects of dosa which is the basis for disease"
+  },
+  {
+    "term": "anubandhyaH",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.81",
+    "definition": "primary or independent. independent disease having its own set of symptoms and classical line of therapy"
+  },
+  {
+    "term": "anubandhaH",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.82",
+    "definition": "secondary or dependent. any disease which does not have an independent existence or line of treatment"
+  },
+  {
+    "term": "prakRuti",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.83",
+    "definition": "normalcy. state of normalcy in any aspect without any deviation or derangement from normal state, function or quality"
+  },
+  {
+    "term": "vikRutaH/vikRuti",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.84",
+    "definition": "abnormal. not normal; differing in any way from the usual state, structure or condition"
+  },
+  {
+    "term": "ASayApakarShaH",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.85",
+    "definition": "phenomenon of propulsion of normal dosha to another site to produce its symptoms. specific term which represents a pathological phenomenon when vitiated vata dosa forcefully shifts another dosha from its normal site to another and produces symptoms"
+  },
+  {
+    "term": "doShagatiH",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.86",
+    "definition": "the physiological and pathological movement of do?a within the body. the movement of doshas within the body(apart from physiological movement) is a pathogenic mechanism which results in manifestation of disease in different tracts"
+  },
+  {
+    "term": "sa~jcArasthAnam",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.87",
+    "definition": "way of the movement of do?a. the term signifies spread of the vitiated dosha"
+  },
+  {
+    "term": "SAKAgatiH",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.88",
+    "definition": "movements of do?a from viscera to tissues. movements of do?a towards tissues (shakha), either physiological or pathological; manifestation of diseases occur when the vitiated dosas gets dislodged in sakha"
+  },
+  {
+    "term": "madhyamagatiH",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.89",
+    "definition": "movements of do?a towards vital parts, head and junctures and junctions of the body. movements of do?a towards vital parts, head and junctures and junctions of the body"
+  },
+  {
+    "term": "sAmadoShaH",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.90",
+    "definition": "do?a associated with ?ma. dosa when associated with ama undergoes qualitative and functional alteration and become capable of producing diseases. ?ma: The term is used as a technical word for anything that exists in a state of incomplete transformation. It is mentioned in various contexts like a) In particular, it can refer to a toxic by product generated due to improper or incomplete digestion. b) Toxins that were produced at any stage of metabolism and that are circulating through the channels are also sometimes. c) The first stage of any disease is also frequently. d) Any substance which is present in its abnormal state and is unwanted in the body. It represents, in a gross sense, mere indigestion which begins in the stomach, to, in a finer sense, even a faulty enzymatic pathway that prevents or hampers a metabolic cycle or chain. It is a very important factor playing a pivotal role in the genesis of any disease. It is also important in determining the prognosis, drug selection and all other stages of therapy."
+  },
+  {
+    "term": "nirAmadoShaH",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.91",
+    "definition": "do?a not associated with ?ma. when ama associated with any dosha undergoes depletion, the resultant dosha is termed as nirama, which is still in vitiated state and has not returned to normalcy"
+  },
+  {
+    "term": "doShahetuH",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.92",
+    "definition": "causes which aggravate do?a. causes which aggravate do?a irrespective of the disease"
+  },
+  {
+    "term": "vyAdhihetuH",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.93",
+    "definition": "disease specific causes. factors that cause a disease irrespective of the do?a involved in it"
+  },
+  {
+    "term": "uBayahetuH",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.94",
+    "definition": "causes which aggravate do?a as well as disease specific causes. factors which not only aggravate particular dosha but also cause for a particular disease; causes affecting both mind and body"
+  },
+  {
+    "term": "caturvidhahetuH",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.95",
+    "definition": "four types of aetiological factors. the classification of hetu as four types based on its capability in producing disease"
+  },
+  {
+    "term": "sannikRuShTahetuH",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.96",
+    "definition": "direct cause. the potent cause which can directly cause a disease i.e. ruksha diet is the sannikrishta nidan for vatika type of  jwara"
+  },
+  {
+    "term": "viprakRuShTahetuH",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.97",
+    "definition": "indirect cause. distant causative factors which are comparatively less influential in causing a disease i.e. rudra kopa (wrath of god rudra) is said as viprakrushta hetu for jwara"
+  },
+  {
+    "term": "vyaBicArIhetuH",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.98",
+    "definition": "weak cause of the disease. non - dominant causative factor; thus cannot independently cause a disease and may produce when suitable situation arises in body"
+  },
+  {
+    "term": "prAdhAnikahetuH",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.99",
+    "definition": "more powerful and prime cause. dominant causative factors which play dominant role in causing a disease; such factors produce instantaneous dosha dushti and are very potent in causation of disease e.g. poison"
+  },
+  {
+    "term": "pUrvarUpam",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.100",
+    "definition": "prodromes. it is the premonitory symptom by learning about which one can avoid the manifestation of the disease; depending on their nature they are classified into two types"
+  },
+  {
+    "term": "pUrvarUpa-BedaH",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.101",
+    "definition": "classification of prodromes. classification of prodromal symptoms on the basis of their general and specific nature, which points to any disease or  any particular disease"
+  },
+  {
+    "term": "viSeShapUrvarUpam",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.102",
+    "definition": "disease specific prodromes. they signify two meanings a) specific symptom pertaining to particular dosha. b) those premonitory symptoms which convert into signs and symptoms of a particular condition."
+  },
+  {
+    "term": "sAmAnyapUrvarUpam",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.103",
+    "definition": "general prodromes. they signify two meanings a) general premonitory symptoms b) those premonitory symptoms which does not convert into signs and symptoms."
+  },
+  {
+    "term": "li~gagaH",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.104",
+    "definition": "symptoms. any morbid phenomenon or departure from the normal in structure, function, or sensation, experienced by either the patient or physician and indicative of disease syn: li~gaga"
+  },
+  {
+    "term": "li~gaga-paryAyaH",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.105",
+    "definition": "synonyms of symptoms. various synonyms of linga such as lakshana,  chihna, akrti etc"
+  },
+  {
+    "term": "AkRutiH",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.106",
+    "definition": "�form. synonyms of li?ga; denotes the symptoms that is manifested in a disease."
+  },
+  {
+    "term": "lakShaNam",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.107",
+    "definition": "symptoms/ characteristics. synonyms of li?ga; any morbid phenomenon or departure from the normal in structure, function, or sensation, understood by physician which is indicative of disease."
+  },
+  {
+    "term": "cihnam",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.108",
+    "definition": "sign. synonyms of li?ga;�signs which points toward any disease such as krichraswasanam (difficulty breathing) pointing towards swasa roga ( respiratory disease)"
+  },
+  {
+    "term": "saMsthAnam",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.109",
+    "definition": "place of manifestation/ shape. synonyms of li?ga; literal meaning denotes the type of manifestation in the body"
+  },
+  {
+    "term": "vya~jjanam",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.110",
+    "definition": "symptom. synonyms of li?ga;�this term denotes the manifestations of disease"
+  },
+  {
+    "term": "rUpam",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.111",
+    "definition": "sign. synonyms of li?ga; any morbid phenomenon or departure from the normal in structure, function, or sensation, understood by physician which is indicative of disease."
+  },
+  {
+    "term": "hRutadoSha-lakShaNam",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.112",
+    "definition": "symptoms seen in the body after the complete expulsion of the impaired do?a. �the symptoms and signs that points to a normal state after the expulsion of vitiated doshas."
+  },
+  {
+    "term": "upaSayaH",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.113",
+    "definition": "favourable treatment and intervantion. the signs and symptoms of improvement signifying relief / alleviation of the disease."
+  },
+  {
+    "term": "upaSaya-BedaH",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.114",
+    "definition": "types of assuagement. �classification of assuagement on the basis of their nature"
+  },
+  {
+    "term": "hetuviparItaH",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.115",
+    "definition": "drug ,food, behaviour aspects that are antagonistic to causative factors of disease. �judicious use of medicines, regimen and dietetics that is antagonistic to the etiology of disease"
+  },
+  {
+    "term": "vyAdhiviparItaH",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.116",
+    "definition": "drug ,food, behaviour aspects that are antagonistic to disease. �judicious use of medicines, regimen and dietetics that is antagonistic to the nature of disease itself."
+  },
+  {
+    "term": "hetu-vyAdhi- viparItaH",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.117",
+    "definition": "drug ,food, behaviour aspects that are antagonistic to  both causative factors of disease and disease itself. �judicious use of medicines, regimen and dietetics that are antagonistic to both the etiology and disease itself."
+  },
+  {
+    "term": "viparItArthakAriH",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.118",
+    "definition": "drug ,food, behaviour aspects that are similar"
+  },
+  {
+    "term": "hetuviparItArthakAriH",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.119",
+    "definition": "drug , food, behaviour aspects are similar to causative factors of disease. �judicious use of medicines, regimen and dietetics that is similar to the etiology, but capable of producing assuagement"
+  },
+  {
+    "term": "vyAdhi- viparItArthakAriH",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.120",
+    "definition": "drug ,food, behaviour aspects that are similar to disease"
+  },
+  {
+    "term": "hetu-vyAdhi viparItArthakAriH",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.121",
+    "definition": "drug ,food, behaviour aspects that are similar to  both causative factors of disease and disease itself. �judicious use of medicines, regimen and dietetics that is similar to both the etiology and disease, but capable of producing assuagement."
+  },
+  {
+    "term": "anupaSayaH",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.122",
+    "definition": "unfavourable treatment and intervantion. intervention of the diet and medicine which is neither good for health nor for diseases. and it is one of the tools of the diagnosis where the diseases cannot be diagnosed by referring merely its clinical features."
+  },
+  {
+    "term": "samprAptiH",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.123",
+    "definition": "pathogenesis. the term signifies the mechanism starting from vitiation of do?a till the origin and complete manifestation / development of the disease. further pathogenesis is classified into six types."
+  },
+  {
+    "term": "samprAptiparyAyaH",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.124",
+    "definition": "synonyms of pathogenesis"
+  },
+  {
+    "term": "jAtiH",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.125",
+    "definition": "synonym of pathogenesis. denotes the synonym of pathogenesis"
+  },
+  {
+    "term": "AgatiH",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.126",
+    "definition": "synonym of pathogenesis. �denotes the synonym of pathogenesis"
+  },
+  {
+    "term": "samprAptiBedaH",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.127",
+    "definition": "classification of pathogenesis"
+  },
+  {
+    "term": "sa~gKyA-samprAptiH",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.128",
+    "definition": "stage wise pathogenesis. classification of the pathogenesis according to enumeration."
+  },
+  {
+    "term": "prAdhAnya-samprAptiH",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.129",
+    "definition": "main pathogenesis. classification of the pathogenesis according to primary or secondary ailment"
+  },
+  {
+    "term": "vidhi-samprAptiH",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.130",
+    "definition": "variety specific pathogenesis. classification of the pathogenesis according to the categorization based on various aspects such as based on prognosis a disease can be classified as saadhya (easily curable), aasadhya( incurable), krichsaadhya(difficult to cure) etc."
+  },
+  {
+    "term": "vikalpa-samprAptiH",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.131",
+    "definition": "variation specific pathogenesis. classification of the pathogenesis according to the predominance of one or other fraction of the three doshas"
+  },
+  {
+    "term": "bala-samprAptiH",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.132",
+    "definition": "intensity specific pathogenesis. classification of the pathogenesis according to strength of the disease"
+  },
+  {
+    "term": "kAla-samprAptiH",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.133",
+    "definition": "time specific pathogenesis. classification of the pathogenesis according to time of occurrence or aggravation of the disease"
+  },
+  {
+    "term": "upadravaH",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.134",
+    "definition": "complications. the diseases that develop subsequent to a disease or during the course of the main disease that is being treated, and is dependent upon the main disease for its origination, nature and the strength. it is called secondary in the sense that its onset follows the presence of the primary disease"
+  },
+  {
+    "term": "vyApad",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.135",
+    "definition": "complication. complications caused during therapeutic procedures like  panchakrma (eg. basti vyapada)"
+  },
+  {
+    "term": "AturanimittajaH",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.136",
+    "definition": "complications due to patient. complications that arise during treatment due to non- obedience from the side of the patient"
+  },
+  {
+    "term": "BiShak-nimittajaH",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.137",
+    "definition": "iatrogenic complications. complications that arise by the false application of medical or surgical procedures"
+  },
+  {
+    "term": "BeShaja-nimittajaH",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.138",
+    "definition": "complications due to drug. complications which arise as a result of improper usage of drugs, usage of poor standard drugs etc."
+  },
+  {
+    "term": "ariShTalakShaNam",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.139",
+    "definition": "fatal signs of disease. fatal sign and symptoms which arises in patients denoting poor prognosis or death"
+  },
+  {
+    "term": "rogAvasthA",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.140",
+    "definition": "stage of disease. the term signifies different stages of diseases."
+  },
+  {
+    "term": "pakvAvasthA",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.141",
+    "definition": "ripened stage of do?a in a disease. the transforming phase of a disease-course or vrana denoting post- inflammatory condition /suppurative condition of a disease or vrana."
+  },
+  {
+    "term": "pacyamAnAvasthA",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.142",
+    "definition": "transforming stage of desease. the transforming phase of a disease-course or vrana denoting the inflammatory condition."
+  },
+  {
+    "term": "nirAmAvasthA",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.143",
+    "definition": "devoid of ?ma. state when the ama state is converted by either the effect of time or therapeutic measures"
+  },
+  {
+    "term": "kriyAkAlaH",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.144",
+    "definition": "stages of disease manifestation and its management. six chief stages in the management of diseases/ step wise description of a disease's pathogenesis."
+  },
+  {
+    "term": "sa~jcayaH",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.145",
+    "definition": "accumulative stage. it is the first stage of kriyakala. the stage of accumulation of doshas in their own place (swasthana)"
+  },
+  {
+    "term": "prakopaH",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.146",
+    "definition": "provocative stage. it is the second stage of kriyakala. the stage of provocation or aggravation of the doshas."
+  },
+  {
+    "term": "prasaraH",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.147",
+    "definition": "migration stage. it is the third stage of kriyakala. prasara means leave & spread and thus it is the stage of migration of vitiated doshas from their usual places to different places."
+  },
+  {
+    "term": "sthAnasaMSrayaH",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.148",
+    "definition": "stage of localization. it is the fourth stage of kriyakala. the term literally means taking shelter in a place. it is the stage of disease augmentation wherein the vitiated doshas lodges into other body parts consisting of khavaigunya(vacant space) and causes functional, structural or both deformities."
+  },
+  {
+    "term": "vyaktiH",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.149",
+    "definition": "manifestation stage. it is the fifth stage of kriyakala. the stage of symptom manifestation of the disease."
+  },
+  {
+    "term": "BedaH",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.150",
+    "definition": "stage of complication. it is the sixth stage of kriyakala, the stage of complications and here the symptoms can be differentiated on the basis of doshas."
+  },
+  {
+    "term": "rogIparIkShA",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.151",
+    "definition": "examination of patient. examination of patient"
+  },
+  {
+    "term": "trividhaparIkShA",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.152",
+    "definition": "three folds examination of patient. examination of patient done by darshan(observation), sparshan(palpation) and prashna (interrogation)."
+  },
+  {
+    "term": "ShaDvidha-parIkShA",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.153",
+    "definition": "six folds examination of patient. examination of patient done by five senses and interrogation."
+  },
+  {
+    "term": "aShTasthAna-parIkShA",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.154",
+    "definition": "eight folds examination of patient. eight folds examination of patient as : 1. examination of pulse (nadi)2. examination of urine (mootra) 3. examination of the excreta (mala) 4 . examination of tongue (jihwa) 5. examination of voice, sounds produced from body like percussion etc. (shabda) 6. tactile examination (sparsha) 7. examination of eyes and eyesight  (driga) 8. examination of the body stature (akruti)"
+  },
+  {
+    "term": "daSavidha-parIkShA",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.155",
+    "definition": "ten fold examination of patient. ten folds of examination considering below mentioned criteria: 1. physical constitution (prakruti) 2. morbidity (vikruti) 3. excellence of dushya or tissue elements (sara). 4. compactness or tissues or organs (samhanana) 5. measurement of body constituents (pramana)  6. homologation (saatmya). 7. psycic condition (satwa) 8. power of intake and digestion of food (aaharshakti) 9. power of performing exercise (vyayam shakti) 10. age (vayah)"
+  },
+  {
+    "term": "vyAdhikShamatvam",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.156",
+    "definition": "immunity. resisting power of the body, which reacts to arrest the progress, occurrence, and reoccurrence of diseases"
+  },
+  {
+    "term": "vyAdhi balavirodhitatvam",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.157",
+    "definition": "direct resistance to disease. natural, non-specific type of immunity which defends the body in the first occurrence of any disease."
+  },
+  {
+    "term": "vyAdhyudpAdapratibandhakatvam",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.158",
+    "definition": "resistance to manifestation of disease. body's defence mechanism which checks the occurrence or reoccurrence of diseases."
+  },
+  {
+    "term": "srotorodhaH",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.159",
+    "definition": "obstructive pathology occurring in channels. complete or partial obstruction in the body channels leading their malfunctioning."
+  },
+  {
+    "term": "srotovaiguNyam",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.160",
+    "definition": "deformity in the body channels. the term physiological or structural signifies deformity in the body channels leading to manifestation of the diseases."
+  },
+  {
+    "term": "srotoduShTi-hetuH",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.161",
+    "definition": "causes of  deformity in the body channels. the term signifies the etiological factors for the deformity in the body channels"
+  },
+  {
+    "term": "srotoduShTiprakAraH",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.162",
+    "definition": "types deformity in body channels. types of the deformity in the body channels"
+  },
+  {
+    "term": "atipravRuttiH",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.163",
+    "definition": "increase or over flow of the contents in the body channels. increase or over flow of the contents in the body channels"
+  },
+  {
+    "term": "sa~ggaH",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.164",
+    "definition": "obstruction due to contraction of lumen. obstruction in the pathway of body channels which restricts the movements and may also forms a collateral way sometimes"
+  },
+  {
+    "term": "vimArgagamanam",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.165",
+    "definition": "diversion to the flow of the contents to the improper channels. diversion to the flow of the contents to the improper channels"
+  },
+  {
+    "term": "sirAgranthiH",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.166",
+    "definition": "occurrence of nodular growth in the body channels. occurrence of nodular growth in the lumen of body channels"
+  },
+  {
+    "term": "sannipAtaH",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.167",
+    "definition": "conglomeration. literally, it signifies parts or items that are grouped together. generally the term is used to state the involvement of all the three <em>doshas</em>, in the pathogenesis of diseases."
+  },
+  {
+    "term": "rogAnIkaH",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.168",
+    "definition": "comorbidity. the simultaneous appearance of two or more illnesses."
+  },
+  {
+    "term": "rogAdhiShThAnam",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.169",
+    "definition": "place of manifestation of diseases. the term literally means abode , place where diseases take shelter and from where manifestation of disease occurs."
+  },
+  {
+    "term": "rogAnutpAdanIyam",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.170",
+    "definition": "measures for prevention of disease. syn: anagata badhapratishedha. ref.code: 1.36.0"
+  },
+  {
+    "term": "lInadoShAvasthA",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.171",
+    "definition": "concealed and opportunistic do?a. the abnormal state of the vitiated do?a where in they become concealed in the body channels and remain opportunistic to cause abnormality in the body in presence of a favourable condition."
+  },
+  {
+    "term": "sthAnAntaragata- doShaH",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.172",
+    "definition": "movement of dosha from its usual place. syn: agantu doshah ref.code: 1.137.0 dosha when moves to other place and shows disease manifestation there."
+  },
+  {
+    "term": "sthAnika-doShaH",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.173",
+    "definition": "dosha residing at its usual place. the term literally means inhabitant dosha, that is  dosha residing at its own place."
+  },
+  {
+    "term": "prakRutisamasamaveta-sannipAtajarogaH",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.174",
+    "definition": "the disease in which symptoms manifest in accordance to dosa involved. a disease caused due to sannipaata, in which dosha dominance can be understood on the  basis of symptoms"
+  },
+  {
+    "term": "vikRutiviShama-samaveta-sannipAtajarogaH",
+    "system": "Ayurveda-SAT",
+    "code": "SAT-C.175",
+    "definition": "the disease in which symptoms other than that of  dosa involved also manifested. a disease caused due to sannipaata, in which dosha dominance cannot be understood on the  basis of symptoms"
+  }
+]
